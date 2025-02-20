@@ -4,6 +4,10 @@ import "gorm.io/gorm"
 
 type CompanyModel struct {
 	gorm.Model
+	UID int
+	NetsuiteID int
+	TopdeskID int
+	HubspotID int
 	Nome string
 	RazaoSocial string
 	CNPJ string
